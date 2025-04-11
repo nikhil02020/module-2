@@ -1,0 +1,57 @@
+Question 1: Excel & Power Query Tasks
+1. How to edit an already existing query in Power Query in Excel
+Solution:
+
+Go to the Data tab in Excel.
+
+Click on Queries & Connections (right side).
+
+In the pane that opens, right-click on the query you want to edit.
+
+Select Edit — this will open the Power Query Editor.
+
+Make your changes in the applied steps or formula bar.
+
+Click Close & Load to apply the updated query.
+
+2. Add Missing Column Header:
+Problem:
+
+Column F4 is blank in the "Expenses" sheet.
+
+Solution:
+
+Click on cell F4.
+
+Enter the header: Tax Code.
+
+This ensures the pivot table recognizes the column properly.
+
+3. Filter Pivot Table Data Using Slicer (IS-375 or IS-390)
+Solution:
+
+Click inside the pivot table.
+
+Go to the PivotTable Analyze tab.
+
+Click Insert Slicer, select the Account field, and click OK.
+
+On the slicer, hold Ctrl and select both IS-375 and IS-390.
+
+The pivot table will now only show supplier totals for these two accounts.
+
+Question 2: Replace Complex Excel Array Formula with Power Query
+Goal: Extract a unique list of Sales Rep names without using an array formula.
+
+Solution using Power Query:
+
+Select your dataset and go to the Data tab → From Table/Range.
+
+In Power Query Editor:
+
+Select the Sales Rep column.
+
+Go to the Home tab → Click Remove Duplicates.
+
+Click Close & Load to bring the unique list into Excel.
+
